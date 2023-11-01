@@ -1,0 +1,42 @@
+{
+  "name": "Nettruyen Pro",
+  "description": "by latiosthinh",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "declarative_net_request": {
+    "rule_resources": [{
+      "id": "ruleset_1",
+      "enabled": true,
+      "path": "rules.json"
+    }]
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "run_at": "document_end",
+      "js": ["contentScript.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "scripting",
+    "declartiveContent"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "/images/focus16.png",
+      "32": "/images/focus32.png",
+      "128": "/images/focus128.png"
+    },
+    "default_title": "Nettruyen Pro"
+  },
+  "icons": {
+    "16": "/images/focus16.png",
+    "32": "/images/focus32.png",
+    "128": "/images/focus128.png"
+  }
+}

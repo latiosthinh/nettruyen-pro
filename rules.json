@@ -1,0 +1,42 @@
+[
+	{
+		"id": 1,
+		"priority": 1,
+		"action": { "type": "block" },
+		"condition": {
+			"urlFilter": "*/jwplayer/vast.js",
+			"resourceTypes": [ "script" ] }
+	},
+	{
+		"id": 2,
+		"priority": 1,
+		"action": { "type": "block" },
+		"condition": {
+			"urlFilter": "*/cameesse.net/*",
+			"resourceTypes": [ "script" ] }
+	},
+	{
+		"id": 3,
+		"priority": 1,
+		"action": { "type": "block" },
+		"condition": {
+			"urlFilter": "*/couwhivu.com/tag.min.js",
+			"resourceTypes": [ "script" ] }
+	},
+	{
+		"id": 4,
+		"priority": 1,
+		"action": { "type": "block" },
+		"condition": {
+			"urlFilter": "*/www.googletagmanager.com/gtag/js/*",
+			"resourceTypes": [ "script" ] }
+	},
+	{
+		"id": 5,
+		"priority": 1,
+		"action": { "type": "block" },
+		"condition": {
+			"urlFilter": "*/foojimie.net/5/5575538*",
+			"resourceTypes": [ "script" ] }
+	}
+]

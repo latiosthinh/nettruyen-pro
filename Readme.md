@@ -5,4 +5,4 @@ Open chrome extensions: Settings > More tools > Extensions
 Toggle Developer mode
 
 ## Step 3
-Load upacked and Enjoy watching "Phimmoi"
+Load upacked and Enjoy watching "NettruyenPro"

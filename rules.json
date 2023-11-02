@@ -20,7 +20,7 @@
 		"priority": 1,
 		"action": { "type": "block" },
 		"condition": {
-			"urlFilter": "*/couwhivu.com/tag.min.js",
+			"urlFilter": "*/couwhivu.com/*",
 			"resourceTypes": [ "script" ] }
 	},
 	{
@@ -37,6 +37,14 @@
 		"action": { "type": "block" },
 		"condition": {
 			"urlFilter": "*/foojimie.net/5/5575538*",
+			"resourceTypes": [ "script" ] }
+	},
+	{
+		"id": 6,
+		"priority": 1,
+		"action": { "type": "block" },
+		"condition": {
+			"urlFilter": "*/e7z9t4x6a0v5mk3zo1a0xj2z7c6g8sa6js5z7s2c3h9x0s5fh3a6sjwb8q7m.xyz/*",
 			"resourceTypes": [ "script" ] }
 	}
 ]

@@ -15,7 +15,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["http://*/*", "https://*/*"],
+      "matches": ["http://www.nettruyenus.com/*", "https://www.nettruyenus.com/*"],
       "run_at": "document_end",
       "js": ["contentScript.js"]
     }
@@ -24,7 +24,8 @@
     "activeTab",
     "tabs",
     "scripting",
-    "declartiveContent"
+    "declartiveContent",
+    "declarativeNetRequestWithHostAccess"
   ],
   "action": {
     "default_icon": {
